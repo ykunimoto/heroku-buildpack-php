@@ -88,6 +88,7 @@ pushd "$PHP_DIR" >/dev/null
 ./configure --prefix="$PHP_ROOT" --with-config-file-path="$PHP_ROOT" --with-apxs2=${APACHE_ROOT}/bin/apxs \
   --with-mysql --with-pdo-mysql --with-pgsql --with-pdo-pgsql \
   --with-iconv --with-gd --with-curl --enable-soap=shared --with-openssl \
+  --enable-mbstring \
   --with-mcrypt="$MCRYPT_ROOT" --with-jpeg-dir=/usr >> $BUILD_LOG 2>&1
 make >> $BUILD_LOG 2>&1
 make install >> $BUILD_LOG 2>&1
