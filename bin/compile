@@ -9,7 +9,7 @@ set -x
 
 APACHE_VERSION="2.2.22"
 PHP_VERSION="5.4.1"
-APACHE_BINARY_URL="http://projects.interlated.com.au/apache-${APACHE_VERSION}_php-${PHP_VERSION}.tar.bz2"
+APACHE_BINARY_URL="https://dl.dropbox.com/u/1682752/github/heroku/apache-${APACHE_VERSION}_php-${PHP_VERSION}.tar.bz2"
 APACHE_DIR=apache
 PHP_DIR=php
 
